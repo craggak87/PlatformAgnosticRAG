@@ -1,0 +1,7 @@
+{
+  "CellAssistant.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/home\/alex-huza\/Downloads\/CellKnowledgeAssistant\/PlatformAgnosticRAG\/src\/CellAssistant.Api",
+  "CellAssistant.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/home\/alex-huza\/Downloads\/CellKnowledgeAssistant\/PlatformAgnosticRAG\/src\/CellAssistant.Application",
+  "CellAssistant.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/home\/alex-huza\/Downloads\/CellKnowledgeAssistant\/PlatformAgnosticRAG\/src\/CellAssistant.Domain",
+  "CellAssistant.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/home\/alex-huza\/Downloads\/CellKnowledgeAssistant\/PlatformAgnosticRAG\/src\/CellAssistant.Infrastructure",
+  "CellAssistant.Worker, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/home\/alex-huza\/Downloads\/CellKnowledgeAssistant\/PlatformAgnosticRAG\/src\/CellAssistant.Worker"
+}

@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>CellAssistant.Domain</RootNamespace>
+    <AssemblyName>CellAssistant.Domain</AssemblyName>
+  </PropertyGroup>
+
+  <!-- Strict Clean Architecture: Zero package references or project references allowed in Domain -->
+
+</Project>

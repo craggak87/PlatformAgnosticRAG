@@ -1,0 +1,555 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/tests/CellAssistant.UnitTests/CellAssistant.UnitTests.csproj": {}
+  },
+  "projects": {
+    "/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Api/CellAssistant.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Api/CellAssistant.Api.csproj",
+        "projectName": "CellAssistant.Api",
+        "projectPath": "/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Api/CellAssistant.Api.csproj",
+        "packagesPath": "/home/alex-huza/.nuget/packages/",
+        "outputPath": "/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Api/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/alex-huza/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Application/CellAssistant.Application.csproj": {
+                "projectPath": "/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Application/CellAssistant.Application.csproj"
+              },
+              "/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Infrastructure/CellAssistant.Infrastructure.csproj": {
+                "projectPath": "/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Infrastructure/CellAssistant.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Serilog.Formatting.Compact": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[7.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/alex-huza/Documents/Unsloth Studio/Projects/CellKnowledgeAssistant-1cc90294/sandbox/.dotnet/sdk/9.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Application/CellAssistant.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Application/CellAssistant.Application.csproj",
+        "projectName": "CellAssistant.Application",
+        "projectPath": "/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Application/CellAssistant.Application.csproj",
+        "packagesPath": "/home/alex-huza/.nuget/packages/",
+        "outputPath": "/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/alex-huza/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Domain/CellAssistant.Domain.csproj": {
+                "projectPath": "/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Domain/CellAssistant.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Microsoft.Extensions.Options.DataAnnotations": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/alex-huza/Documents/Unsloth Studio/Projects/CellKnowledgeAssistant-1cc90294/sandbox/.dotnet/sdk/9.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Domain/CellAssistant.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Domain/CellAssistant.Domain.csproj",
+        "projectName": "CellAssistant.Domain",
+        "projectPath": "/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Domain/CellAssistant.Domain.csproj",
+        "packagesPath": "/home/alex-huza/.nuget/packages/",
+        "outputPath": "/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/alex-huza/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/alex-huza/Documents/Unsloth Studio/Projects/CellKnowledgeAssistant-1cc90294/sandbox/.dotnet/sdk/9.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Infrastructure/CellAssistant.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Infrastructure/CellAssistant.Infrastructure.csproj",
+        "projectName": "CellAssistant.Infrastructure",
+        "projectPath": "/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Infrastructure/CellAssistant.Infrastructure.csproj",
+        "packagesPath": "/home/alex-huza/.nuget/packages/",
+        "outputPath": "/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/alex-huza/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Application/CellAssistant.Application.csproj": {
+                "projectPath": "/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Application/CellAssistant.Application.csproj"
+              },
+              "/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Domain/CellAssistant.Domain.csproj": {
+                "projectPath": "/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Domain/CellAssistant.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Markdig": {
+              "target": "Package",
+              "version": "[1.4.2, )"
+            },
+            "Microsoft.Data.Sqlite": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "PdfPig": {
+              "target": "Package",
+              "version": "[0.1.16, )"
+            },
+            "Qdrant.Client": {
+              "target": "Package",
+              "version": "[1.19.0, )"
+            },
+            "YamlDotNet": {
+              "target": "Package",
+              "version": "[16.2.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/alex-huza/Documents/Unsloth Studio/Projects/CellKnowledgeAssistant-1cc90294/sandbox/.dotnet/sdk/9.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Worker/CellAssistant.Worker.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Worker/CellAssistant.Worker.csproj",
+        "projectName": "CellAssistant.Worker",
+        "projectPath": "/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Worker/CellAssistant.Worker.csproj",
+        "packagesPath": "/home/alex-huza/.nuget/packages/",
+        "outputPath": "/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Worker/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/alex-huza/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Application/CellAssistant.Application.csproj": {
+                "projectPath": "/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Application/CellAssistant.Application.csproj"
+              },
+              "/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Domain/CellAssistant.Domain.csproj": {
+                "projectPath": "/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Domain/CellAssistant.Domain.csproj"
+              },
+              "/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Infrastructure/CellAssistant.Infrastructure.csproj": {
+                "projectPath": "/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Infrastructure/CellAssistant.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "Serilog.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Serilog.Formatting.Compact": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/alex-huza/Documents/Unsloth Studio/Projects/CellKnowledgeAssistant-1cc90294/sandbox/.dotnet/sdk/9.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/tests/CellAssistant.UnitTests/CellAssistant.UnitTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/tests/CellAssistant.UnitTests/CellAssistant.UnitTests.csproj",
+        "projectName": "CellAssistant.UnitTests",
+        "projectPath": "/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/tests/CellAssistant.UnitTests/CellAssistant.UnitTests.csproj",
+        "packagesPath": "/home/alex-huza/.nuget/packages/",
+        "outputPath": "/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/tests/CellAssistant.UnitTests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/alex-huza/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Api/CellAssistant.Api.csproj": {
+                "projectPath": "/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Api/CellAssistant.Api.csproj"
+              },
+              "/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Application/CellAssistant.Application.csproj": {
+                "projectPath": "/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Application/CellAssistant.Application.csproj"
+              },
+              "/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Domain/CellAssistant.Domain.csproj": {
+                "projectPath": "/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Domain/CellAssistant.Domain.csproj"
+              },
+              "/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Infrastructure/CellAssistant.Infrastructure.csproj": {
+                "projectPath": "/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Infrastructure/CellAssistant.Infrastructure.csproj"
+              },
+              "/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Worker/CellAssistant.Worker.csproj": {
+                "projectPath": "/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Worker/CellAssistant.Worker.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.12.2, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Testing": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.12.0, )"
+            },
+            "NSubstitute": {
+              "target": "Package",
+              "version": "[5.3.0, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.9.3, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/alex-huza/Documents/Unsloth Studio/Projects/CellKnowledgeAssistant-1cc90294/sandbox/.dotnet/sdk/9.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

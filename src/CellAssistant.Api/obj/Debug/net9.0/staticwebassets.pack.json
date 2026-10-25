@@ -1,0 +1,37 @@
+{
+  "Files": [
+    {
+      "Id": "/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Api/wwwroot/app.js",
+      "PackagePath": "staticwebassets/app.js"
+    },
+    {
+      "Id": "/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Api/wwwroot/index.html",
+      "PackagePath": "staticwebassets/index.html"
+    },
+    {
+      "Id": "/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Api/wwwroot/style.css",
+      "PackagePath": "staticwebassets/style.css"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.CellAssistant.Api.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.CellAssistant.Api.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.build.CellAssistant.Api.props",
+      "PackagePath": "build\\CellAssistant.Api.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.buildMultiTargeting.CellAssistant.Api.props",
+      "PackagePath": "buildMultiTargeting\\CellAssistant.Api.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.buildTransitive.CellAssistant.Api.props",
+      "PackagePath": "buildTransitive\\CellAssistant.Api.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

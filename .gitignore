@@ -1,0 +1,13 @@
+/.agents
+/.editorconfig
+/1.Cell_Knowledge_Assistant_ADR.md
+/10.MVP_Implementation_Plan_Platform_Agnostic.md
+/2.PRD.md
+/3.Cell_Knowledge_Assistant_TDS.md
+/4.Cell_Knowledge_Assistant_Domain_Model_Spec.md
+/5.Cell_Knowledge_Assistant_Sprint1_Build_Spec.md
+/6.Cell_Knowledge_Assistant_Repository_Bootstrap_Spec.md
+/7.Cell_Knowledge_Assistant_Sequence_Diagrams_and_Interaction_Flows.md
+/8.Cell_Knowledge_Assistant_Infrastructure_Deployment_Spec.md
+/9.Manufacturing_Knowledge_Schema_Specification.md
+/ORIGINAL_REQUEST.md

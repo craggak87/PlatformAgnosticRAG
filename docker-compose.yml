@@ -1,0 +1,61 @@
+services:
+  api:
+    build:
+      context: .
+      dockerfile: deployment/docker/Dockerfile.api
+    restart: unless-stopped
+    ports:
+      - "8080:8080"
+    environment:
+      - OLLAMA_BASE_URL=http://host.docker.internal:11434
+      - QDRANT_HOST=qdrant
+      - KNOWLEDGE_BASE_ROOT_PATH=/data/KnowledgeBase
+      - KNOWLEDGE_BASE_SQLITE_PATH=/data/state/metadata.db
+      - SERVER_PORT=8080
+      - ollama__baseUrl=http://host.docker.internal:11434
+      - qdrant__host=qdrant
+      - knowledgeBase__rootPath=/data/KnowledgeBase
+      - knowledgeBase__sqlitePath=/data/state/metadata.db
+      - server__port=8080
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    volumes:
+      - ./sample-data/KnowledgeBase:/data/KnowledgeBase:ro
+      - app_state:/data/state
+    depends_on:
+      - qdrant
+
+  worker:
+    build:
+      context: .
+      dockerfile: deployment/docker/Dockerfile.worker
+    restart: unless-stopped
+    environment:
+      - OLLAMA_BASE_URL=http://host.docker.internal:11434
+      - QDRANT_HOST=qdrant
+      - KNOWLEDGE_BASE_ROOT_PATH=/data/KnowledgeBase
+      - KNOWLEDGE_BASE_SQLITE_PATH=/data/state/metadata.db
+      - ollama__baseUrl=http://host.docker.internal:11434
+      - qdrant__host=qdrant
+      - knowledgeBase__rootPath=/data/KnowledgeBase
+      - knowledgeBase__sqlitePath=/data/state/metadata.db
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    volumes:
+      - ./sample-data/KnowledgeBase:/data/KnowledgeBase:ro
+      - app_state:/data/state
+    depends_on:
+      - qdrant
+
+  qdrant:
+    image: qdrant/qdrant:latest
+    restart: unless-stopped
+    ports:
+      - "6333:6333"
+      - "6334:6334"
+    volumes:
+      - qdrant_storage:/qdrant/storage
+
+volumes:
+  qdrant_storage:
+  app_state:

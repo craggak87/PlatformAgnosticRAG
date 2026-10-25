@@ -1,0 +1,1042 @@
+{
+  "Version": 1,
+  "Hash": "lk52uRPrbX84ckTIV5rXxq6X1eZYDWXqF8hn8n2qilE=",
+  "Source": "CellAssistant.Api",
+  "BasePath": "_content/CellAssistant.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "CellAssistant.Api/wwwroot",
+      "Source": "CellAssistant.Api",
+      "ContentRoot": "/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Api/wwwroot/",
+      "BasePath": "_content/CellAssistant.Api",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Api/obj/Release/net9.0/compressed/9zn5n5vb63-jgmynwiebo.gz",
+      "SourceId": "CellAssistant.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Api/obj/Release/net9.0/compressed/",
+      "BasePath": "_content/CellAssistant.Api",
+      "RelativePath": "style#[.{fingerprint=jgmynwiebo}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Api/wwwroot/style.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "505o6sh5lj",
+      "Integrity": "q8oyKkReb6SEVqcaLemLNWPp7xX0WDAyYbSzS0g8P5I=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Api/wwwroot/style.css"
+    },
+    {
+      "Identity": "/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Api/obj/Release/net9.0/compressed/efnexh4y0u-0b5kkep90r.gz",
+      "SourceId": "CellAssistant.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Api/obj/Release/net9.0/compressed/",
+      "BasePath": "_content/CellAssistant.Api",
+      "RelativePath": "index#[.{fingerprint=0b5kkep90r}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Api/wwwroot/index.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "kvcopbu785",
+      "Integrity": "MLw6ozxjUkNBHhyeaKPqX1Wt5yGn4fepBC0qLuWnQpo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Api/wwwroot/index.html"
+    },
+    {
+      "Identity": "/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Api/obj/Release/net9.0/compressed/o498vp976l-rj46mh9zm4.gz",
+      "SourceId": "CellAssistant.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Api/obj/Release/net9.0/compressed/",
+      "BasePath": "_content/CellAssistant.Api",
+      "RelativePath": "app#[.{fingerprint=rj46mh9zm4}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Api/wwwroot/app.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "yjujo548x6",
+      "Integrity": "bq2RmONfhPAFFaCEO+FDMGAfW9WdueXrNsb1wMGnD5E=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Api/wwwroot/app.js"
+    },
+    {
+      "Identity": "/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Api/wwwroot/app.js",
+      "SourceId": "CellAssistant.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Api/wwwroot/",
+      "BasePath": "_content/CellAssistant.Api",
+      "RelativePath": "app#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rj46mh9zm4",
+      "Integrity": "eZnyGZx3seqL/4No2jOlM5z5f5oh99nqBLQLGEsd+OM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/app.js"
+    },
+    {
+      "Identity": "/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Api/wwwroot/index.html",
+      "SourceId": "CellAssistant.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Api/wwwroot/",
+      "BasePath": "_content/CellAssistant.Api",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0b5kkep90r",
+      "Integrity": "3LMoSfv+hNsGP4AKI5aAQmWPoL6G0K9rdii5URbRwVQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/index.html"
+    },
+    {
+      "Identity": "/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Api/wwwroot/style.css",
+      "SourceId": "CellAssistant.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Api/wwwroot/",
+      "BasePath": "_content/CellAssistant.Api",
+      "RelativePath": "style#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jgmynwiebo",
+      "Integrity": "Mz2s5XoMtQEkBo2X9NFf3uX3C2eaPWWfqGmePqwLFfU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/style.css"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "app.js",
+      "AssetFile": "/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Api/obj/Release/net9.0/compressed/o498vp976l-rj46mh9zm4.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000109878035"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9100"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bq2RmONfhPAFFaCEO+FDMGAfW9WdueXrNsb1wMGnD5E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 Oct 2026 06:10:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"eZnyGZx3seqL/4No2jOlM5z5f5oh99nqBLQLGEsd+OM=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-eZnyGZx3seqL/4No2jOlM5z5f5oh99nqBLQLGEsd+OM="
+        }
+      ]
+    },
+    {
+      "Route": "app.js",
+      "AssetFile": "/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Api/wwwroot/app.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35013"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eZnyGZx3seqL/4No2jOlM5z5f5oh99nqBLQLGEsd+OM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 Oct 2026 06:10:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-eZnyGZx3seqL/4No2jOlM5z5f5oh99nqBLQLGEsd+OM="
+        }
+      ]
+    },
+    {
+      "Route": "app.js.gz",
+      "AssetFile": "/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Api/obj/Release/net9.0/compressed/o498vp976l-rj46mh9zm4.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9100"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bq2RmONfhPAFFaCEO+FDMGAfW9WdueXrNsb1wMGnD5E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 Oct 2026 06:10:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-bq2RmONfhPAFFaCEO+FDMGAfW9WdueXrNsb1wMGnD5E="
+        }
+      ]
+    },
+    {
+      "Route": "app.rj46mh9zm4.js",
+      "AssetFile": "/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Api/obj/Release/net9.0/compressed/o498vp976l-rj46mh9zm4.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000109878035"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9100"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bq2RmONfhPAFFaCEO+FDMGAfW9WdueXrNsb1wMGnD5E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 Oct 2026 06:10:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"eZnyGZx3seqL/4No2jOlM5z5f5oh99nqBLQLGEsd+OM=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rj46mh9zm4"
+        },
+        {
+          "Name": "label",
+          "Value": "app.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-eZnyGZx3seqL/4No2jOlM5z5f5oh99nqBLQLGEsd+OM="
+        }
+      ]
+    },
+    {
+      "Route": "app.rj46mh9zm4.js",
+      "AssetFile": "/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Api/wwwroot/app.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35013"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eZnyGZx3seqL/4No2jOlM5z5f5oh99nqBLQLGEsd+OM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 Oct 2026 06:10:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rj46mh9zm4"
+        },
+        {
+          "Name": "label",
+          "Value": "app.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-eZnyGZx3seqL/4No2jOlM5z5f5oh99nqBLQLGEsd+OM="
+        }
+      ]
+    },
+    {
+      "Route": "app.rj46mh9zm4.js.gz",
+      "AssetFile": "/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Api/obj/Release/net9.0/compressed/o498vp976l-rj46mh9zm4.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9100"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bq2RmONfhPAFFaCEO+FDMGAfW9WdueXrNsb1wMGnD5E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 Oct 2026 06:10:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rj46mh9zm4"
+        },
+        {
+          "Name": "label",
+          "Value": "app.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-bq2RmONfhPAFFaCEO+FDMGAfW9WdueXrNsb1wMGnD5E="
+        }
+      ]
+    },
+    {
+      "Route": "index.0b5kkep90r.html",
+      "AssetFile": "/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Api/obj/Release/net9.0/compressed/efnexh4y0u-0b5kkep90r.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000175500176"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5697"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MLw6ozxjUkNBHhyeaKPqX1Wt5yGn4fepBC0qLuWnQpo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 Oct 2026 06:10:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"3LMoSfv+hNsGP4AKI5aAQmWPoL6G0K9rdii5URbRwVQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0b5kkep90r"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3LMoSfv+hNsGP4AKI5aAQmWPoL6G0K9rdii5URbRwVQ="
+        }
+      ]
+    },
+    {
+      "Route": "index.0b5kkep90r.html",
+      "AssetFile": "/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Api/wwwroot/index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19856"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3LMoSfv+hNsGP4AKI5aAQmWPoL6G0K9rdii5URbRwVQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 Oct 2026 06:10:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0b5kkep90r"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3LMoSfv+hNsGP4AKI5aAQmWPoL6G0K9rdii5URbRwVQ="
+        }
+      ]
+    },
+    {
+      "Route": "index.0b5kkep90r.html.gz",
+      "AssetFile": "/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Api/obj/Release/net9.0/compressed/efnexh4y0u-0b5kkep90r.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5697"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MLw6ozxjUkNBHhyeaKPqX1Wt5yGn4fepBC0qLuWnQpo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 Oct 2026 06:10:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0b5kkep90r"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MLw6ozxjUkNBHhyeaKPqX1Wt5yGn4fepBC0qLuWnQpo="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Api/obj/Release/net9.0/compressed/efnexh4y0u-0b5kkep90r.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000175500176"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5697"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MLw6ozxjUkNBHhyeaKPqX1Wt5yGn4fepBC0qLuWnQpo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 Oct 2026 06:10:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"3LMoSfv+hNsGP4AKI5aAQmWPoL6G0K9rdii5URbRwVQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3LMoSfv+hNsGP4AKI5aAQmWPoL6G0K9rdii5URbRwVQ="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Api/wwwroot/index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19856"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3LMoSfv+hNsGP4AKI5aAQmWPoL6G0K9rdii5URbRwVQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 Oct 2026 06:10:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3LMoSfv+hNsGP4AKI5aAQmWPoL6G0K9rdii5URbRwVQ="
+        }
+      ]
+    },
+    {
+      "Route": "index.html.gz",
+      "AssetFile": "/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Api/obj/Release/net9.0/compressed/efnexh4y0u-0b5kkep90r.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5697"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MLw6ozxjUkNBHhyeaKPqX1Wt5yGn4fepBC0qLuWnQpo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 Oct 2026 06:10:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MLw6ozxjUkNBHhyeaKPqX1Wt5yGn4fepBC0qLuWnQpo="
+        }
+      ]
+    },
+    {
+      "Route": "style.css",
+      "AssetFile": "/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Api/obj/Release/net9.0/compressed/9zn5n5vb63-jgmynwiebo.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000193836015"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5158"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"q8oyKkReb6SEVqcaLemLNWPp7xX0WDAyYbSzS0g8P5I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 Oct 2026 06:10:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Mz2s5XoMtQEkBo2X9NFf3uX3C2eaPWWfqGmePqwLFfU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Mz2s5XoMtQEkBo2X9NFf3uX3C2eaPWWfqGmePqwLFfU="
+        }
+      ]
+    },
+    {
+      "Route": "style.css",
+      "AssetFile": "/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Api/wwwroot/style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "25969"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Mz2s5XoMtQEkBo2X9NFf3uX3C2eaPWWfqGmePqwLFfU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 Oct 2026 06:10:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Mz2s5XoMtQEkBo2X9NFf3uX3C2eaPWWfqGmePqwLFfU="
+        }
+      ]
+    },
+    {
+      "Route": "style.css.gz",
+      "AssetFile": "/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Api/obj/Release/net9.0/compressed/9zn5n5vb63-jgmynwiebo.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5158"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"q8oyKkReb6SEVqcaLemLNWPp7xX0WDAyYbSzS0g8P5I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 Oct 2026 06:10:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-q8oyKkReb6SEVqcaLemLNWPp7xX0WDAyYbSzS0g8P5I="
+        }
+      ]
+    },
+    {
+      "Route": "style.jgmynwiebo.css",
+      "AssetFile": "/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Api/obj/Release/net9.0/compressed/9zn5n5vb63-jgmynwiebo.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000193836015"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5158"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"q8oyKkReb6SEVqcaLemLNWPp7xX0WDAyYbSzS0g8P5I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 Oct 2026 06:10:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Mz2s5XoMtQEkBo2X9NFf3uX3C2eaPWWfqGmePqwLFfU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jgmynwiebo"
+        },
+        {
+          "Name": "label",
+          "Value": "style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Mz2s5XoMtQEkBo2X9NFf3uX3C2eaPWWfqGmePqwLFfU="
+        }
+      ]
+    },
+    {
+      "Route": "style.jgmynwiebo.css",
+      "AssetFile": "/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Api/wwwroot/style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "25969"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Mz2s5XoMtQEkBo2X9NFf3uX3C2eaPWWfqGmePqwLFfU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 Oct 2026 06:10:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jgmynwiebo"
+        },
+        {
+          "Name": "label",
+          "Value": "style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Mz2s5XoMtQEkBo2X9NFf3uX3C2eaPWWfqGmePqwLFfU="
+        }
+      ]
+    },
+    {
+      "Route": "style.jgmynwiebo.css.gz",
+      "AssetFile": "/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Api/obj/Release/net9.0/compressed/9zn5n5vb63-jgmynwiebo.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5158"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"q8oyKkReb6SEVqcaLemLNWPp7xX0WDAyYbSzS0g8P5I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 Oct 2026 06:10:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jgmynwiebo"
+        },
+        {
+          "Name": "label",
+          "Value": "style.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-q8oyKkReb6SEVqcaLemLNWPp7xX0WDAyYbSzS0g8P5I="
+        }
+      ]
+    }
+  ]
+}

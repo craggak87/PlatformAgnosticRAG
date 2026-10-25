@@ -1,0 +1,11 @@
+/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Domain/bin/Release/net9.0/CellAssistant.Domain.deps.json
+/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Domain/bin/Release/net9.0/CellAssistant.Domain.dll
+/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Domain/bin/Release/net9.0/CellAssistant.Domain.pdb
+/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Domain/obj/Release/net9.0/CellAssistant.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Domain/obj/Release/net9.0/CellAssistant.Domain.AssemblyInfoInputs.cache
+/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Domain/obj/Release/net9.0/CellAssistant.Domain.AssemblyInfo.cs
+/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Domain/obj/Release/net9.0/CellAssistant.Domain.csproj.CoreCompileInputs.cache
+/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Domain/obj/Release/net9.0/CellAssistant.Domain.dll
+/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Domain/obj/Release/net9.0/refint/CellAssistant.Domain.dll
+/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Domain/obj/Release/net9.0/CellAssistant.Domain.pdb
+/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Domain/obj/Release/net9.0/ref/CellAssistant.Domain.dll

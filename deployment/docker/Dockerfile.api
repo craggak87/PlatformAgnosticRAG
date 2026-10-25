@@ -1,0 +1,39 @@
+# Multi-stage build for CellAssistant.Api (.NET 9)
+FROM mcr.microsoft.com/dotnet/sdk:9.0 AS build
+WORKDIR /src
+
+# Copy build configuration and project files for layer caching
+COPY Directory.Build.props ./
+COPY CellKnowledgeAssistant.sln ./
+COPY src/CellAssistant.Domain/CellAssistant.Domain.csproj src/CellAssistant.Domain/
+COPY src/CellAssistant.Application/CellAssistant.Application.csproj src/CellAssistant.Application/
+COPY src/CellAssistant.Infrastructure/CellAssistant.Infrastructure.csproj src/CellAssistant.Infrastructure/
+COPY src/CellAssistant.Api/CellAssistant.Api.csproj src/CellAssistant.Api/
+
+# Restore dependencies
+RUN dotnet restore src/CellAssistant.Api/CellAssistant.Api.csproj
+
+# Copy remaining source code
+COPY src/ src/
+
+# Build and publish release binaries
+WORKDIR /src/src/CellAssistant.Api
+RUN dotnet publish -c Release -o /app/publish --no-restore
+
+# Final runtime image
+FROM mcr.microsoft.com/dotnet/aspnet:9.0 AS runtime
+WORKDIR /app
+
+# Copy published application
+COPY --from=build /app/publish .
+
+# Ensure data and logs directories exist and set unprivileged ownership
+RUN mkdir -p /data/state /data/KnowledgeBase /app/logs && \
+    chown -R $APP_UID:$APP_UID /data/state /data/KnowledgeBase /app/logs /app
+USER $APP_UID
+
+# Default ASP.NET Core URL binding
+ENV ASPNETCORE_URLS=http://0.0.0.0:8080
+EXPOSE 8080
+
+ENTRYPOINT ["dotnet", "CellAssistant.Api.dll"]

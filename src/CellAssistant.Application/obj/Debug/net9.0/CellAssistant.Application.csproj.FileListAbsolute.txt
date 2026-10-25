@@ -1,0 +1,15 @@
+/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Application/obj/Debug/net9.0/CellAssistant.Application.csproj.AssemblyReference.cache
+/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Application/obj/Debug/net9.0/CellAssistant.Application.GeneratedMSBuildEditorConfig.editorconfig
+/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Application/obj/Debug/net9.0/CellAssistant.Application.AssemblyInfoInputs.cache
+/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Application/obj/Debug/net9.0/CellAssistant.Application.AssemblyInfo.cs
+/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Application/obj/Debug/net9.0/CellAssistant.Application.csproj.CoreCompileInputs.cache
+/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Application/bin/Debug/net9.0/CellAssistant.Application.deps.json
+/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Application/bin/Debug/net9.0/CellAssistant.Application.dll
+/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Application/bin/Debug/net9.0/CellAssistant.Application.pdb
+/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Application/bin/Debug/net9.0/CellAssistant.Domain.dll
+/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Application/bin/Debug/net9.0/CellAssistant.Domain.pdb
+/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Application/obj/Debug/net9.0/CellAssi.06E82476.Up2Date
+/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Application/obj/Debug/net9.0/CellAssistant.Application.dll
+/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Application/obj/Debug/net9.0/refint/CellAssistant.Application.dll
+/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Application/obj/Debug/net9.0/CellAssistant.Application.pdb
+/home/alex-huza/Downloads/CellKnowledgeAssistant/PlatformAgnosticRAG/src/CellAssistant.Application/obj/Debug/net9.0/ref/CellAssistant.Application.dll

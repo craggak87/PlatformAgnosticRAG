@@ -1,0 +1,53 @@
+name: CI Build & Test Verification
+
+on:
+  push:
+    branches: [ "main", "master" ]
+  pull_request:
+    branches: [ "main", "master" ]
+  workflow_dispatch:
+
+jobs:
+  build-and-test:
+    name: .NET 9 Build, Unit Tests & E2E Verification
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup .NET 9 SDK
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '9.0.x'
+
+      - name: Restore Dependencies
+        run: dotnet restore CellKnowledgeAssistant.sln
+
+      - name: Build Solution
+        run: dotnet build CellKnowledgeAssistant.sln --configuration Release --no-restore
+
+      - name: Run Unit Tests
+        run: dotnet test tests/CellAssistant.UnitTests/CellAssistant.UnitTests.csproj --configuration Release --no-build --verbosity normal --logger "trx;LogFileName=unit-tests.trx"
+
+      - name: Run E2E & Tier 1 Feature Tests (Including Feature 25 Vault Tests)
+        run: dotnet test tests/CellAssistant.E2ETests/CellAssistant.E2ETests.csproj --configuration Release --no-build --verbosity normal --logger "trx;LogFileName=e2e-tests.trx"
+
+      - name: Verify Prohibited Cloud SDK Rule (ADR-002 / ADR-013)
+        run: |
+          echo "Verifying zero cloud AI dependencies in csproj files..."
+          PROHIBITED=("Azure.AI.OpenAI" "OpenAI" "Anthropic" "Microsoft.SemanticKernel" "LangChain" "Amazon.Bedrock" "Google.Cloud.AIPlatform")
+          for pkg in "${PROHIBITED[@]}"; do
+            if grep -rn --include="*.csproj" "$pkg" src/; then
+              echo "ERROR: Prohibited Cloud AI package '$pkg' detected!"
+              exit 1
+            fi
+          done
+          echo "Verification passed: 0 prohibited cloud AI dependencies found."
+
+      - name: Upload Test Results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: test-results
+          path: "**/TestResults/*.trx"

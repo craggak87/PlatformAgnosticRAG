@@ -1,0 +1,39 @@
+[Unit]
+Description=Cell Knowledge Assistant - REST & Hybrid RAG Query API Service
+Documentation=https://github.com/alex-huza/CellKnowledgeAssistant
+After=network.target qdrant.service ollama.service
+Wants=qdrant.service ollama.service
+
+[Service]
+Type=simple
+User=cellassistant
+Group=cellassistant
+WorkingDirectory=/opt/cell-knowledge-assistant
+ExecStart=/usr/bin/dotnet /opt/cell-knowledge-assistant/bin/CellAssistant.Api.dll --config /opt/cell-knowledge-assistant/config/config.yaml
+Restart=always
+RestartSec=5s
+
+# Environment Configuration
+Environment=ASPNETCORE_ENVIRONMENT=Production
+Environment=DOTNET_PRINT_TELEMETRY_MESSAGE=false
+Environment=KNOWLEDGE_BASE_ROOT_PATH=/data/KnowledgeBase
+Environment=KNOWLEDGE_BASE_SQLITE_PATH=/opt/cell-knowledge-assistant/data/metadata.db
+Environment=QDRANT_HOST=localhost
+Environment=QDRANT_HTTP_PORT=6333
+Environment=OLLAMA_BASE_URL=http://localhost:11434
+
+# Security Sandboxing & Hardening
+NoNewPrivileges=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/opt/cell-knowledge-assistant/data /opt/cell-knowledge-assistant/logs
+ReadOnlyPaths=/data/KnowledgeBase
+PrivateTmp=true
+CapabilityBoundingSet=
+
+# Resource Management
+LimitNOFILE=65536
+MemoryMax=4G
+
+[Install]
+WantedBy=multi-user.target

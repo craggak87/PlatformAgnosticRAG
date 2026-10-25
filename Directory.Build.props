@@ -1,0 +1,31 @@
+<Project>
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <LangVersion>13.0</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <Company>Cell Knowledge Assistant</Company>
+    <Product>Cell Knowledge Assistant MVP</Product>
+    <Copyright>Copyright © 2026</Copyright>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+
+  <!-- Prohibit Cloud AI SDKs across all projects (ADR-002, ADR-013) -->
+  <Target Name="EnforceNoCloudAiSdks" BeforeTargets="BeforeBuild">
+    <ItemGroup>
+      <_IllegalReferences Include="@(PackageReference)"
+                          Condition="'%(Identity)' == 'Azure.AI.OpenAI' Or 
+                                     '%(Identity)' == 'Azure.AI.Inference' Or 
+                                     '%(Identity)' == 'OpenAI' Or 
+                                     '%(Identity)' == 'Anthropic' Or 
+                                     '%(Identity)' == 'Microsoft.SemanticKernel' Or 
+                                     '%(Identity)' == 'LangChain' Or 
+                                     '%(Identity)' == 'Amazon.Bedrock' Or 
+                                     '%(Identity)' == 'Google.Cloud.AIPlatform' Or 
+                                     '%(Identity)' == 'Microsoft.ApplicationInsights'" />
+    </ItemGroup>
+    <Error Condition="@(_IllegalReferences->Count()) &gt; 0"
+           Text="Architectural Violation: Cloud AI SDKs or telemetry packages are strictly prohibited by ADR-002. Detected: @(_IllegalReferences)" />
+  </Target>
+</Project>
