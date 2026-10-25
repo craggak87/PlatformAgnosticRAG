@@ -50,6 +50,7 @@ public class AdminController : ControllerBase
         {
             using var scope = _scopeFactory.CreateScope();
             var stateRepo = scope.ServiceProvider.GetRequiredService<IIndexerStateRepository>();
+            var vectorStore = scope.ServiceProvider.GetRequiredService<IVectorStore>();
             var indexer = scope.ServiceProvider.GetRequiredService<IDocumentIndexer>();
             var logger = scope.ServiceProvider.GetRequiredService<ILogger<AdminController>>();
 
@@ -57,6 +58,7 @@ public class AdminController : ControllerBase
             {
                 logger.LogInformation("Starting background vault reindexing execution...");
                 await stateRepo.UpdateStatusAsync(IndexerStatus.Reindexing);
+                await vectorStore.InitializeCollectionAsync(CancellationToken.None);
 
                 var result = await indexer.IndexAllAsync(CancellationToken.None);
 

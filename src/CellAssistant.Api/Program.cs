@@ -99,6 +99,32 @@ builder.Services.AddSwaggerGen(options =>
 
 var app = builder.Build();
 
+// Ensure SQLite schema (WAL mode) and Qdrant collection are initialized on startup
+using (var scope = app.Services.CreateScope())
+{
+    var sqliteInitializer = scope.ServiceProvider.GetService<CellAssistant.Infrastructure.Persistence.Sqlite.ISqliteDatabaseInitializer>();
+    if (sqliteInitializer is not null)
+    {
+        await sqliteInitializer.InitializeAsync();
+    }
+
+    if (!app.Environment.IsEnvironment("Testing"))
+    {
+        try
+        {
+            var vectorStore = scope.ServiceProvider.GetService<CellAssistant.Application.Ports.IVectorStore>();
+            if (vectorStore is not null)
+            {
+                await vectorStore.InitializeCollectionAsync();
+            }
+        }
+        catch (Exception ex)
+        {
+            Log.Warning(ex, "Qdrant collection initialization deferred on API startup (will retry when reachable).");
+        }
+    }
+}
+
 // Global Structured Exception Handling Middleware
 app.UseMiddleware<ExceptionHandlingMiddleware>();
 

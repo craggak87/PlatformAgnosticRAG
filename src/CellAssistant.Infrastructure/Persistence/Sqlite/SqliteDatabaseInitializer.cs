@@ -51,6 +51,9 @@ CREATE TABLE IF NOT EXISTS indexer_state (
     last_error TEXT,
     reindex_requested INTEGER NOT NULL DEFAULT 0
 );
+
+INSERT OR IGNORE INTO indexer_state (id, status, reindex_requested)
+VALUES (1, 'Idle', 0);
 ";
 
     public SqliteDatabaseInitializer(ISqliteConnectionFactory connectionFactory)
